@@ -35,6 +35,5 @@ def cadastros():
     dados['email'] = email
     dados['telefone'] = telefone
     clientes.update({cpf:dados})
-    print(clientes)
     
 menu()
